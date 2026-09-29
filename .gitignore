@@ -1,0 +1,23 @@
+# Backend (Java/Maven)
+backend/target/
+backend/.idea/
+backend/*.iml
+
+# Frontend (Node/React/Vite)
+cuumang-frontend/node_modules/
+cuumang-frontend/dist/
+cuumang-frontend/build/
+cuumang-frontend/.env
+cuumang-frontend/.env.*
+!cuumang-frontend/.env.example
+
+# Chung
+.DS_Store
+*.log
+
+# IDE
+.idea/
+.vscode/
+*.iml
+# Backend secrets
+backend/src/main/resources/application.yml
